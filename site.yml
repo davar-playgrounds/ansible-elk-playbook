@@ -1,0 +1,16 @@
+---
+#
+# Playbook to install ELK
+#
+
+- hosts: ELK
+  remote_user: server
+  become: yes
+  become_user: root
+
+  roles:
+  - { role: java }
+  - { role: elasticsearch } 
+  - { role: kibana } 
+  - { role: logstash } 
+  - { role: filebeat } 
