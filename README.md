@@ -1,9 +1,9 @@
-Ansible ELK Playbook
+<b>Ansible ELK Playbook</b>
 
 This Playbook is for setting up version 7.X of the ElK Stack.
 Playbook set up ELK stack with Filebeat and Metricbeat for server monitoring.
 
-How to:
+<b>How to:</b>
 1. Install Ansible on your machine.
 2. Clone this repo.
 3. Edit your Ansible hosts file in ansible.cfg, and add an 'ELK' entry for the server you wish to install ELK on.
